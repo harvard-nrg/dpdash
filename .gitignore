@@ -1,6 +1,24 @@
+# pip
 Pipfile.lock
-docs/build
+
+# node
+node_modules
+
+# VSCode
+.vscode
+
+# Logs
 *.log
+*.dump
+
+# Local configs
 config.js
+.env
+server/configs
+
+# Built code
 *.map
 *.min.js
+docs/build
+public/js
+dist

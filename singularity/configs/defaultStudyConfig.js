@@ -1,4 +1,4 @@
-var configs = {};
+const configs = {};
 configs.colormap = [
             {
                 category : "daily_survey",
@@ -73,4 +73,5 @@ configs.colormap = [
                 text : true
             }
         ];
-module.exports = configs;
+
+export default configs;

@@ -1,4 +1,4 @@
-var userConfig = {};
+const userConfig = {};
 userConfig.colormap =[
     {
         category : "callLog",
@@ -1945,5 +1945,5 @@ userConfig.colormap =[
         text : false
     }
 ];
-module.exports = userConfig;
 
+export default userConfig;
